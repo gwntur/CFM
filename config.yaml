@@ -14,23 +14,8 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: AXIS OPOK CA
-    server: ovo.id
-    port: 80
-    type: vless
-    uuid: 77fed22f-954a-4125-8eb0-e51717daf236
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-ovh-ca01.globalssh.xyz
-    udp: true
   - name: AXIS OPOK1
-    server: poe.garena.com
+    server: ovo.id
     port: 80
     type: vless
     uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
@@ -60,7 +45,7 @@ proxies:
         Host: vless-sg01.globalssh.xyz
     udp: true
   - name: PREMIUM DE
-    server: 104.18.36.235
+    server: poe.garena.com
     port: 80
     type: vless
     uuid: da56a5cd-0709-4840-8b53-7b0fe5baf2f5
@@ -73,4 +58,19 @@ proxies:
       path: /vless-ws
       headers: 
         Host: vless-adv-de01.globalssh.xyz
+    udp: true
+  - name: HOWDY SG
+    server: sg3.socifiles.com
+    port: 443
+    type: vless
+    uuid: 188eb770-1e87-11ef-a9d4-1239d0255272
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts: 
+      path: /vlws
+      headers: 
+        Host: poe.garena.com
     udp: true

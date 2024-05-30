@@ -75,3 +75,19 @@ proxies:
       headers:
         Host: sg3.socifiles.com
     udp: true
+  - name: SPEED GACOR
+    server: ovo.id
+    port: 2095
+    type: vmess
+    uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: onea.flha.ru
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: onea.flha.ru
+    udp: true

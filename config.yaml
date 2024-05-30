@@ -44,50 +44,18 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
-  - name: AXIS SG
-    server: ovo.id
-    port: 80
-    type: vmess
-    uuid: eb4d2130-1e5a-11ef-be1c-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
-  - name: SG HOWDY
+  - name: SG PREMIUM
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: 12ef7220-1e5d-11ef-aa56-1239d0255272
+    uuid: 5627a4d6-cb3b-4d7d-bd56-e5687010cc9c
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg3.socifiles.com
+    servername: sg01.ipxray.xyz
     network: ws
-    ws-opts:
-      path: /vlws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
-  - name: SPEED GACOR
-    server: ovo.id
-    port: 2095
-    type: vmess
-    uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: onea.flha.ru
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: onea.flha.ru
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: sg01.ipxray.xyz
     udp: true

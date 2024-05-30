@@ -14,3 +14,20 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
+
+- name: AXIS TRIAL
+    server: sg01.ipv2ray.xyz
+    port: 443
+    type: vmess
+    uuid: 92bab1a1-adc8-41ab-83d4-503d7c76d028
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg01.ipv2ray.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: poe.garena.com
+    udp: true

@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
-  - name: SG+VMESS-WS NTLS(2024-06-06)
+  - name: AXIS SG
     server: ovo.id
     port: 80
     type: vmess

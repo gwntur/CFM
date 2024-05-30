@@ -44,3 +44,19 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
+  - name: SG+VMESS-WS NTLS(2024-06-06)
+    server: ovo.id
+    port: 80
+    type: vmess
+    uuid: eb4d2130-1e5a-11ef-be1c-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true

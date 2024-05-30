@@ -1,18 +1,18 @@
 proxies:
-  - name: AXIS GAME CA
-    server: 104.18.36.235
+  - name: SERVER SG
+    server: poe.garena.com
     port: 80
     type: vless
-    uuid: 77fed22f-954a-4125-8eb0-e51717daf236
+    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
+    servername: vless-sg01.globalssh.xyz
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /vless-ws
-      headers:
-        Host: vless-ovh-ca01.globalssh.xyz
+      headers: 
+        Host: vless-sg01.globalssh.xyz
     udp: true
   - name: AXIS OPOK CA
     server: ovo.id
@@ -29,33 +29,48 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
-  - name: AXIS OPOK2 CA
-    server: arjuna.axis.co.id
-    port: 80
-    type: vless
-    uuid: 77fed22f-954a-4125-8eb0-e51717daf236
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-ovh-ca01.globalssh.xyz
-    udp: true
-  - name: SG PREMIUM
+  - name: AXIS OPOK1
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: 5627a4d6-cb3b-4d7d-bd56-e5687010cc9c
+    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg01.ipxray.xyz
+    servername: vless-sg01.globalssh.xyz
     network: ws
     ws-opts: 
       path: /vless-ws
       headers: 
-        Host: sg01.ipxray.xyz
+        Host: vless-sg01.globalssh.xyz
+    udp: true
+  - name: AXIS OPOK2
+    server: arjuna.axis.co.id
+    port: 80
+    type: vless
+    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless-sg01.globalssh.xyz
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: vless-sg01.globalssh.xyz
+    udp: true
+  - name: PREMIUM DE
+    server: 104.18.36.235
+    port: 80
+    type: vless
+    uuid: da56a5cd-0709-4840-8b53-7b0fe5baf2f5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless-adv-de01.globalssh.xyz
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: vless-adv-de01.globalssh.xyz
     udp: true

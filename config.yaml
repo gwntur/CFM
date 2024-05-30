@@ -14,7 +14,6 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
-
 - name: AXIS TRIAL
     server: sg01.ipv2ray.xyz
     port: 443

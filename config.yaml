@@ -14,6 +14,21 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
+- name: AXIS OPOK
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 77fed22f-954a-4125-8eb0-e51717daf236
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless-ovh-ca01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-ovh-ca01.globalssh.xyz
+    udp: true    
 - name: AXIS TRIAL
     server: sg01.ipv2ray.xyz
     port: 443

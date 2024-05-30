@@ -1,5 +1,5 @@
 proxies:
-  - name: AXIS GAMING
+  - name: AXIS GAME CA
     server: 104.18.36.235
     port: 80
     type: vless
@@ -14,8 +14,23 @@ proxies:
       headers:
         Host: vless-ovh-ca01.globalssh.xyz
     udp: true
-  - name: AXIS OPOK
-    server: 104.26.6.171
+  - name: AXIS OPOK CA
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 77fed22f-954a-4125-8eb0-e51717daf236
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless-ovh-ca01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-ovh-ca01.globalssh.xyz
+    udp: true
+  - name: AXIS OPOK2 CA
+    server: arjuna.axis.co.id
     port: 80
     type: vless
     uuid: 77fed22f-954a-4125-8eb0-e51717daf236

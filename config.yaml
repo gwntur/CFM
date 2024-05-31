@@ -1,5 +1,5 @@
 proxies:
-  - name: SERVER SG
+  - name: GLOBALSSH SG
     server: poe.garena.com
     port: 80
     type: vless
@@ -15,7 +15,7 @@ proxies:
         Host: vless-sg01.globalssh.xyz
     udp: true
   - name: AXIS OPOK1
-    server: ovo.id
+    server: 104.21.69.223
     port: 80
     type: vless
     uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
@@ -44,7 +44,7 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: PREMIUM DE
+  - name: JERMAN
     server: poe.garena.com
     port: 80
     type: vless
@@ -59,7 +59,7 @@ proxies:
       headers: 
         Host: vless-adv-de01.globalssh.xyz
     udp: true
-  - name: SG 7DAY
+  - name: SINGAPORE
     server: poe.garena.com
     port: 80
     type: vmess
@@ -75,7 +75,7 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
-  - name: SG GACOR
+  - name: VPNSTUNNEL SG
     server: poe.garena.com
     port: 80
     type: vless
@@ -104,4 +104,19 @@ proxies:
       path: /vless
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
+    udp: true
+  - name: SUSHIROLL JP
+    server: 104.21.69.223
+    port: 80
+    type: vless
+    uuid: 5c035038-bfe8-4c66-83b2-235ae8b5d078
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless-sis-jp01.globalssh.xyz
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: vless-sis-jp01.globalssh.xyz
     udp: true

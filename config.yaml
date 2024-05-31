@@ -59,18 +59,34 @@ proxies:
       headers: 
         Host: vless-adv-de01.globalssh.xyz
     udp: true
-  - name: FREE SG
+  - name: SG 7DAY
+    server: poe.garena.com
+    port: 80
+    type: vmess
+    uuid: 5c63ab9d-c6b0-447e-a114-009b6a072f10
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: aray.josvpn.me
+    udp: true
+  - name: SG GACOR
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: 188eb770-1e87-11ef-a9d4-1239d0255272
+    uuid: 0ab3beaa-f4e6-4c72-8eed-fa3711b011f8
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg3.socifiles.com
+    servername: aray.josvpn.me
     network: ws
     ws-opts: 
-      path: /vlws
+      path: /vless
       headers: 
-        Host: sg3.socifiles.com
+        Host: aray.josvpn.me
     udp: true

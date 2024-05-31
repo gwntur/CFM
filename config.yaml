@@ -90,3 +90,18 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
+  - name: SG CLOUDFRONT
+    server: 18.161.49.45
+    port: 80
+    type: vless
+    uuid: 0ab3beaa-f4e6-4c72-8eed-fa3711b011f8
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aray.josvpn.me
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: j14331x3c34771zm51.speedup.mobi
+    udp: true

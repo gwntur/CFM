@@ -105,21 +105,6 @@ proxies:
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
     udp: true
-  - name: SUSHIROLL JP
-    server: 104.21.69.223
-    port: 80
-    type: vless
-    uuid: 5c035038-bfe8-4c66-83b2-235ae8b5d078
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vless-sis-jp01.globalssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless-ws
-      headers: 
-        Host: vless-sis-jp01.globalssh.xyz
-    udp: true
   - name: PREMIUM ID
     server: poe.garena.com
     port: 2052
@@ -152,22 +137,6 @@ proxies:
       headers: 
         Host: us7.wish.ml
     udp: true
-  - name: PREMIUM RU
-    server: poe.garena.com
-    port: 2095
-    type: vmess
-    uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: onea.flha.ru
-    udp: true
   - name: JERMAN US
     server: poe.garena.com
     port: 2052
@@ -183,4 +152,17 @@ proxies:
       path: /
       headers: 
         Host: de.wish.ml
+    udp: true
+  - name: Simple-Sub
+    server: poe.garena.com
+    port: 443
+    type: trojan
+    password: 7040dd49-3d06-441f-946c-0ac98fda5122
+    skip-cert-verify: true
+    sni: sg01.iptr.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan-ws
+      headers: 
+        Host: sg01.iptr.xyz
     udp: true

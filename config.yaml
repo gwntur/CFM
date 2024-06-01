@@ -153,16 +153,19 @@ proxies:
       headers: 
         Host: de.wish.ml
     udp: true
-  - name: Simple-Sub
+  - name: TRIAL SG
     server: poe.garena.com
     port: 443
-    type: trojan
-    password: 7040dd49-3d06-441f-946c-0ac98fda5122
+    type: vmess
+    uuid: c9789e18-6cdc-4099-814f-19db489f64ec
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg01.iptr.xyz
+    servername: sg.aabb.ws
     network: ws
     ws-opts: 
-      path: /trojan-ws
+      path: /vmess
       headers: 
-        Host: sg01.iptr.xyz
+        Host: sg.aabb.ws
     udp: true

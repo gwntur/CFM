@@ -44,7 +44,7 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: CANADA 🇨🇦
+  - name: CANADA
     server: poe.garena.com
     port: 80
     type: vless
@@ -105,7 +105,7 @@ proxies:
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
     udp: true
-  - name: NETHERLANDS 🇳🇱
+  - name: NETHERLANDS
     server: poe.garena.com
     port: 443
     type: trojan
@@ -117,23 +117,6 @@ proxies:
       path: /trojan-ws
       headers: 
         Host: trojan-dis-nl01.globalssh.xyz
-    udp: true
-    udp: true
-  - name: PREMIUM US
-    server: poe.garena.com
-    port: 2052
-    type: vmess
-    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: us7.wish.ml
     udp: true
   - name: SINGAPORE 🇸🇬
     server: poe.garena.com
@@ -150,7 +133,7 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
-  - name: SG 🇸🇬
+  - name: SG
     server: poe.garena.com
     port: 443
     type: vmess

@@ -118,7 +118,7 @@ proxies:
       headers: 
         Host: trojan-dis-nl01.globalssh.xyz
     udp: true
-  - name: SINGAPORE 🇸🇬
+  - name: SINGAPORE
     server: poe.garena.com
     port: 80
     type: vless

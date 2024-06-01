@@ -44,20 +44,20 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: JERMAN
+  - name: GLOBALSSH CA
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: da56a5cd-0709-4840-8b53-7b0fe5baf2f5
+    uuid: ce9996fe-e787-4ef3-bef2-a254f1d28602
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: vless-adv-de01.globalssh.xyz
+    servername: vless-ovh-ca01.globalssh.xyz
     network: ws
     ws-opts: 
       path: /vless-ws
       headers: 
-        Host: vless-adv-de01.globalssh.xyz
+        Host: vless-ovh-ca01.globalssh.xyz
     udp: true
   - name: SINGAPORE
     server: poe.garena.com
@@ -119,4 +119,68 @@ proxies:
       path: /vless-ws
       headers: 
         Host: vless-sis-jp01.globalssh.xyz
+    udp: true
+  - name: PREMIUM ID
+    server: poe.garena.com
+    port: 2052
+    type: vmess
+    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: in4.wish.ml
+    udp: true
+  - name: PREMIUM US
+    server: poe.garena.com
+    port: 2052
+    type: vmess
+    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: us7.wish.ml
+    udp: true
+  - name: PREMIUM RU
+    server: poe.garena.com
+    port: 2095
+    type: vmess
+    uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: onea.flha.ru
+    udp: true
+  - name: JERMAN US
+    server: poe.garena.com
+    port: 2052
+    type: vmess
+    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: de.wish.ml
     udp: true

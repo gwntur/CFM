@@ -44,11 +44,11 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: GLOBALSSH CA
+  - name: CANADA 🇨🇦
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: ce9996fe-e787-4ef3-bef2-a254f1d28602
+    uuid: 871f4000-554e-4842-8f6e-a294f161982c
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -105,21 +105,19 @@ proxies:
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
     udp: true
-  - name: PREMIUM ID
+  - name: NETHERLANDS 🇳🇱
     server: poe.garena.com
-    port: 2052
-    type: vmess
-    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
+    port: 443
+    type: trojan
+    password: ac0a05e8-f38c-4a80-af3e-c8105b2e879f
+    skip-cert-verify: true
+    sni: trojan-dis-nl01.globalssh.xyz
     network: ws
     ws-opts: 
-      path: /
+      path: /trojan-ws
       headers: 
-        Host: in4.wish.ml
+        Host: trojan-dis-nl01.globalssh.xyz
+    udp: true
     udp: true
   - name: PREMIUM US
     server: poe.garena.com
@@ -137,23 +135,22 @@ proxies:
       headers: 
         Host: us7.wish.ml
     udp: true
-  - name: JERMAN US
+  - name: SINGAPORE 🇸🇬
     server: poe.garena.com
-    port: 2052
-    type: vmess
-    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-    alterId: 0
+    port: 80
+    type: vless
+    uuid: a0539611-03f8-4289-80ec-f7203d8fc1ff
     cipher: auto
     tls: false
-    skip-cert-verify: false
-    servername: 
+    skip-cert-verify: true
+    servername: aray.josvpn.me
     network: ws
     ws-opts: 
-      path: /
+      path: /vless
       headers: 
-        Host: de.wish.ml
+        Host: aray.josvpn.me
     udp: true
-  - name: TRIAL SG
+  - name: SG 🇸🇬
     server: poe.garena.com
     port: 443
     type: vmess

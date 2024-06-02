@@ -133,19 +133,18 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
-  - name: SG
+  - name: SG VULTR
     server: poe.garena.com
     port: 443
-    type: vmess
-    uuid: c9789e18-6cdc-4099-814f-19db489f64ec
-    alterId: 0
+    type: vless
+    uuid: f9021b31-e8bd-4b4d-a1d3-c9b0c1476c44
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg.aabb.ws
+    servername: free.putrivpn.biz.id
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /vlesscf
       headers: 
-        Host: sg.aabb.ws
+        Host: free.putrivpn.biz.id
     udp: true

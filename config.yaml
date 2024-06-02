@@ -148,3 +148,19 @@ proxies:
       headers: 
         Host: free.putrivpn.biz.id
     udp: true
+  - name: INDONESIA PREMIUM
+    server: ovo.id
+    port: 80
+    type: vmess
+    uuid: 430f8a37-14d6-4564-9ffb-07e30c899299
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmessws
+      headers: 
+        Host: id1.ubaistore.my.id
+    udp: true

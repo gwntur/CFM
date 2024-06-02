@@ -1,9 +1,25 @@
 proxies:
-  - name: GLOBALSSH SG
+  - name: GLOBALSSH SGGS
+    server: ovo.id
+    port: 80
+    type: vmess
+    uuid: 30a277fa-3ecb-4044-aaaf-7c5be4753d88
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: vmess-sg01.globalssh.xyz
+    network: ws
+    ws-opts: 
+      path: /vmess-ws
+      headers: 
+        Host: vmess-sg01.globalssh.xyz
+    udp: true
+  - name: AXIS GAME
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
+    uuid: 7878bbb0-82db-4cd1-97eb-1ed7c6f6337e
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -14,35 +30,18 @@ proxies:
       headers: 
         Host: vless-sg01.globalssh.xyz
     udp: true
-  - name: AXIS OPOK1
-    server: 104.21.69.223
-    port: 80
-    type: vless
-    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
-    cipher: auto
-    tls: false
+  - name: TROJAN ID
+    server: poe.garena.com
+    port: 443
+    type: trojan
+    password: c1a42bc8-4526-475b-aa09-56fed6feb06b
     skip-cert-verify: true
-    servername: vless-sg01.globalssh.xyz
+    sni: trojan-ikd-id01.globalssh.xyz
     network: ws
     ws-opts: 
-      path: /vless-ws
+      path: /trojan-ws
       headers: 
-        Host: vless-sg01.globalssh.xyz
-    udp: true
-  - name: AXIS OPOK2
-    server: arjuna.axis.co.id
-    port: 80
-    type: vless
-    uuid: 61a5affb-145d-427a-bf27-5c248eee11d4
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vless-sg01.globalssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless-ws
-      headers: 
-        Host: vless-sg01.globalssh.xyz
+        Host: trojan-ikd-id01.globalssh.xyz
     udp: true
   - name: CANADA
     server: poe.garena.com
@@ -75,7 +74,7 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
-  - name: VPNSTUNNEL SG
+  - name: FREE SG
     server: poe.garena.com
     port: 80
     type: vless
@@ -90,7 +89,7 @@ proxies:
       headers: 
         Host: aray.josvpn.me
     udp: true
-  - name: SG CLOUDFRONT
+  - name: CLOUDFRONT
     server: 18.161.49.45
     port: 80
     type: vless
@@ -147,20 +146,4 @@ proxies:
       path: /vlesscf
       headers: 
         Host: free.putrivpn.biz.id
-    udp: true
-  - name: INDONESIA PREMIUM
-    server: ovo.id
-    port: 80
-    type: vmess
-    uuid: 430f8a37-14d6-4564-9ffb-07e30c899299
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
-    network: ws
-    ws-opts: 
-      path: /vmessws
-      headers: 
-        Host: id1.ubaistore.my.id
     udp: true

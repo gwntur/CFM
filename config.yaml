@@ -147,3 +147,18 @@ proxies:
       headers: 
         Host: free.putrivpn.biz.id
     udp: true
+  - name: SUSHIROLL
+    server: 104.21.69.223
+    port: 443
+    type: vless
+    uuid: f9021b31-e8bd-4b4d-a1d3-c9b0c1476c44
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: free.putrivpn.biz.id
+    network: ws
+    ws-opts: 
+      path: /vlesscf
+      headers: 
+        Host: free.putrivpn.biz.id
+    udp: true

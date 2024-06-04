@@ -43,20 +43,20 @@ proxies:
       headers: 
         Host: trojan-ikd-id01.globalssh.xyz
     udp: true
-  - name: CANADA
+  - name: JEPANG
     server: poe.garena.com
     port: 80
     type: vless
-    uuid: 871f4000-554e-4842-8f6e-a294f161982c
+    uuid: c39a3a3e-b234-48d4-92af-cee20efabbe8
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: vless-ovh-ca01.globalssh.xyz
+    servername: poe.garena.com
     network: ws
     ws-opts: 
-      path: /vless-ws
+      path: /vless
       headers: 
-        Host: vless-ovh-ca01.globalssh.xyz
+        Host: xjp.josvpn.me
     udp: true
   - name: SINGAPORE
     server: poe.garena.com
@@ -104,18 +104,20 @@ proxies:
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
     udp: true
-  - name: NETHERLANDS
+  - name: JERMAN
     server: poe.garena.com
-    port: 443
-    type: trojan
-    password: ac0a05e8-f38c-4a80-af3e-c8105b2e879f
+    port: 80
+    type: vless
+    uuid: e23c57de-4b6c-43a2-8489-7241f2828c81
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: trojan-dis-nl01.globalssh.xyz
+    servername: vless-adv-de01.globalssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan-ws
+      path: /vless-ws
       headers: 
-        Host: trojan-dis-nl01.globalssh.xyz
+        Host: vless-adv-de01.globalssh.xyz
     udp: true
   - name: SINGAPORE
     server: poe.garena.com

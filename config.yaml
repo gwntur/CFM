@@ -1,16 +1,33 @@
 proxies:
-  - name: TROJAN ID
+  - name: AXIS SG
     server: poe.garena.com
-    port: 443
-    type: trojan
-    password: c1a42bc8-4526-475b-aa09-56fed6feb06b
+    port: 80
+    type: vless
+    uuid: d1c64182-ec37-41c0-bf61-dd39d428054a
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: trojan-ikd-id01.globalssh.xyz
+    servername: null
     network: ws
     ws-opts: 
-      path: /trojan-ws
+      path: /vless
       headers: 
-        Host: trojan-ikd-id01.globalssh.xyz
+        Host: aray.josvpn.me
+    udp: true
+  - name: OPOK
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: d1c64182-ec37-41c0-bf61-dd39d428054a
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: null
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: aray.josvpn.me
     udp: true
   - name: JEPANG
     server: poe.garena.com
@@ -73,20 +90,35 @@ proxies:
       headers: 
         Host: j14331x3c34771zm51.speedup.mobi
     udp: true
-  - name: JERMAN
-    server: poe.garena.com
+  - name: CLOUDFRONT 2
+    server: 18.161.49.45
     port: 80
     type: vless
-    uuid: e23c57de-4b6c-43a2-8489-7241f2828c81
+    uuid: d1c64182-ec37-41c0-bf61-dd39d428054a
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: vless-adv-de01.globalssh.xyz
+    servername: null
     network: ws
     ws-opts: 
-      path: /vless-ws
+      path: /vless
       headers: 
-        Host: vless-adv-de01.globalssh.xyz
+        Host: j14331x3c34771zm51.speedup.mobi
+    udp: true
+  - name: CLOUDFRONT 3
+    server: 18.161.49.45
+    port: 80
+    type: vless
+    uuid: d1c64182-ec37-41c0-bf61-dd39d428054a
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: null
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: 213o1m08591e72t7a3.speedup.mobi
     udp: true
   - name: SINGAPORE
     server: poe.garena.com
@@ -117,22 +149,6 @@ proxies:
       path: /vlesscf
       headers: 
         Host: free.putrivpn.biz.id
-    udp: true
-  - name: 3DAY
-    server: poe.garena.com
-    port: 80
-    type: vmess
-    uuid: f6589a5c-c69a-442a-8976-eab62074d802
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: zeen.injeck.my.id
     udp: true
   - name: GERMAN
     server: poe.garena.com

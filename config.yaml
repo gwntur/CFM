@@ -1,35 +1,4 @@
 proxies:
-  - name: GLOBALSSH SGGS
-    server: ovo.id
-    port: 80
-    type: vmess
-    uuid: 30a277fa-3ecb-4044-aaaf-7c5be4753d88
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: vmess-sg01.globalssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vmess-ws
-      headers: 
-        Host: vmess-sg01.globalssh.xyz
-    udp: true
-  - name: AXIS GAME
-    server: poe.garena.com
-    port: 80
-    type: vless
-    uuid: 7878bbb0-82db-4cd1-97eb-1ed7c6f6337e
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vless-sg01.globalssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless-ws
-      headers: 
-        Host: vless-sg01.globalssh.xyz
-    udp: true
   - name: TROJAN ID
     server: poe.garena.com
     port: 443
@@ -149,18 +118,34 @@ proxies:
       headers: 
         Host: free.putrivpn.biz.id
     udp: true
-  - name: SUSHIROLL
-    server: 104.21.69.223
+  - name: 3DAY
+    server: poe.garena.com
+    port: 80
+    type: vmess
+    uuid: f6589a5c-c69a-442a-8976-eab62074d802
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: zeen.injeck.my.id
+    udp: true
+  - name: GERMAN
+    server: poe.garena.com
     port: 443
     type: vless
-    uuid: f9021b31-e8bd-4b4d-a1d3-c9b0c1476c44
+    uuid: 8651201d-4a01-4882-9b6e-2cc3ef595fc3
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: free.putrivpn.biz.id
+    servername: vless-adv-de01.globalssh.xyz
     network: ws
     ws-opts: 
-      path: /vlesscf
+      path: /vless-ws
       headers: 
-        Host: free.putrivpn.biz.id
+        Host: vless-adv-de01.globalssh.xyz
     udp: true

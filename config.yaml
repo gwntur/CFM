@@ -1,4 +1,5 @@
-- name: PREMIUM
+proxies:
+  - name: PREMIUM
     server: poe.garena.com
     port: 443
     type: vmess

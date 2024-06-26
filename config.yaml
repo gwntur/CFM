@@ -15,3 +15,14 @@ proxies:
       headers: 
         Host: to.tilebani.com
     udp: true
+    - name: Trojan
+    server: poe.garena.com
+    port: 443
+    type: trojan
+    password: qj1Dz1CJmFQRhWr1SP80aA
+    skip-cert-verify: true
+    sni: cdn-21.gsmxreality.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: 443trojan
+    udp: true

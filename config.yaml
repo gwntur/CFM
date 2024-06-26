@@ -15,18 +15,33 @@ proxies:
       headers: 
         Host: to.tilebani.com
     udp: true
-  - name: TRIAL
+  - name: TRIAL SG
     server: ovo.id
-    port: 443/
+    port: 80/
     type: vless
-    uuid: 18e52006-2a99-42e4-8fd3-08df8c5a60e1
+    uuid: 86fe64be-25b2-4ca4-ada0-a27c49a4ff81
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: sg01.ipxray.xyz
+    servername: ovo.id
     network: ws
     ws-opts: 
-      path: /vless-ws
+      path: /vless-ws#TRIAL
       headers: 
-        Host: sg01.ipxray.xyz
+        Host: sg02.ipxray.xyz
+    udp: true
+  - name: TRIAL SSH
+    server: poe.garena.com
+    port: 80/
+    type: vless
+    uuid: 86fe64be-25b2-4ca4-ada0-a27c49a4ff81
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ovo.id
+    network: ws
+    ws-opts: 
+      path: /vless-ws#TRIAL
+      headers: 
+        Host: sg02.ipxray.xyz
     udp: true

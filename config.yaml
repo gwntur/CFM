@@ -15,14 +15,18 @@ proxies:
       headers: 
         Host: to.tilebani.com
     udp: true
-    - name: Trojan
+  - name: VLESSKU
     server: poe.garena.com
-    port: 443
-    type: trojan
-    password: qj1Dz1CJmFQRhWr1SP80aA
+    port: 8080
+    type: vless
+    uuid: SVNTEAMm
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: cdn-21.gsmxreality.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: 443trojan
+    servername: poe.garena.com
+    network: ws
+    ws-opts: 
+      path: null
+      headers: 
+        Host: SVNTEAM-XUI-v2rayCG6.TehranShoop.ir.
     udp: true

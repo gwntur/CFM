@@ -30,3 +30,18 @@ proxies:
       headers: 
         Host: SVNTEAM-XUI-v2rayCG6.TehranShoop.ir.
     udp: true
+  - name: TRIAL
+    server: ovo.id
+    port: 443/
+    type: vless
+    uuid: 18e52006-2a99-42e4-8fd3-08df8c5a60e1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg01.ipxray.xyz
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: sg01.ipxray.xyz
+    udp: true

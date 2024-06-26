@@ -1,18 +1,18 @@
 proxies:
-  - name: TRIAL SG
+  - name: SERVER JP
     server: ovo.id
     port: 80
     type: vless
-    uuid: 86fe64be-25b2-4ca4-ada0-a27c49a4ff81
+    uuid: 0c39010d-4265-475f-9e4f-db013e3656fa
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: ovo.id
+    servername: jp1.masfen.xyz
     network: ws
     ws-opts: 
       path: /vless-ws
       headers: 
-        Host: sg02.ipxray.xyz
+        Host: jp1.masfen.xyz
     udp: true
   - name: AXIS GAME
     server: poe.garena.com

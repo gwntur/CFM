@@ -1,5 +1,5 @@
 proxies:
-  - name: TRIAL SG
+  - name: TRIAL SG 🇸🇬
     server: ovo.id
     port: 80
     type: vless
@@ -14,7 +14,22 @@ proxies:
       headers: 
         Host: sg02.ipxray.xyz
     udp: true
-  - name: VLESS TELE
+  - name: AXIS GAME 🇮🇩
+    server: poe.garena.com
+    port: 80
+    type: vless
+    uuid: b2c3bf93-5349-4d5f-bfd7-3960e86d60ff
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: poe.garena.com
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: id.vless.sbs
+    udp: true
+  - name: VLESS TELE 🇸🇬
     server: ovo.id
     port: 443
     type: vmess

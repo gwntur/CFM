@@ -45,3 +45,18 @@ proxies:
       headers: 
         Host: 9391.vless.sbs
     udp: true
+  - name: JP TELE
+    server: embed.tawk.to
+    port: 80
+    type: vless
+    uuid: 97de2e74-0c83-402a-a472-fe6a7018f4af
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: embed.tawk.to
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: jp1.globalnet.my.id
+    udp: true

@@ -15,21 +15,6 @@ proxies:
       headers: 
         Host: to.tilebani.com
     udp: true
-  - name: VLESSKU
-    server: poe.garena.com
-    port: 8080
-    type: vless
-    uuid: SVNTEAMm
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: poe.garena.com
-    network: ws
-    ws-opts: 
-      path: null
-      headers: 
-        Host: SVNTEAM-XUI-v2rayCG6.TehranShoop.ir.
-    udp: true
   - name: TRIAL
     server: ovo.id
     port: 443/

@@ -1,6 +1,6 @@
 proxies:
   - name: SERVER JP
-    server: poe.garena.com
+    server: ovo.id
     port: 443
     type: vless
     uuid: 0c39010d-4265-475f-9e4f-db013e3656fa
@@ -59,4 +59,66 @@ proxies:
       path: /vless-ws
       headers: 
         Host: jp1.globalnet.my.id
+    udp: true
+  - name: GAME SG
+    server: poe.garena.com
+    port: 80
+    type: vmess
+    uuid: e00402ef-92f6-416a-b669-a0e736c9afc7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: v2ray.josvpn.me
+    udp: true
+  - name: OPOK SG
+    server: ovo.id
+    port: 80
+    type: vmess
+    uuid: e00402ef-92f6-416a-b669-a0e736c9afc7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: v2ray.josvpn.me
+    udp: true
+  - name: VLESS SG
+    server: poe.garena.com
+    port: 80
+    type: vless
+    uuid: db85db67-cbaf-4792-9505-ee3316499a9f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ovo.id
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: v2ray.josvpn.me
+    udp: true
+  - name: CLOUDFRONT
+    server: 18.161.49.87
+    port: 80
+    type: vless
+    uuid: db85db67-cbaf-4792-9505-ee3316499a9f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ovo.id
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: v2ray.josvpn.me
     udp: true
